@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 import "./app.css";
-import data from "./data/konspi.json";
+import data from "./data/duvera.json";
 
 const selectedData = data.slice(0, 10);
 

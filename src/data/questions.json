@@ -1,0 +1,190 @@
+[
+  {
+    "question": "Řekněte, prosím, nakolik důvěřujete nebo nedůvěřujete:",
+    "items": [
+      {
+        "item": "Prezidentovi republiky",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      },
+      {
+        "item": "Vládě ČR",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      },
+      {
+        "item": "Poslanecké sněmovně ČR",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      },
+      {
+        "item": "Tisku",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      },
+      {
+        "item": "veřejnoprávní televizi (Česká televize)",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      },
+      {
+        "item": "veřejnoprávnímu rozhlasu (Český rozhlas)",
+        "answers": [
+          { "answer": "Rozhodně důvěřuji", "value": 1 },
+          { "answer": "Spíše důvěřuji", "value": 0.66 },
+          { "answer": "Spíše nedůvěřuji", "value": 0.33 },
+          { "answer": "Vůbec nedůvěřuji", "value": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Když se rozhodujete, zda máte věřit nějaké informaci, do jaké míry se spoléháte nebo nespoléháte na názory:",
+    "items": [
+      {
+        "item": "politiků, kteří jsou vám názorově blízcí",
+        "answers": [
+          { "answer": "Rozhodně spoléhám", "value": 1 },
+          { "answer": "Spíše spoléhám", "value": 0.66 },
+          { "answer": "Spíše nespoléhám", "value": 0.33 },
+          { "answer": "Rozhodné nespoléhám", "value": 0 }
+        ]
+      },
+      {
+        "item": "vědců a expertů",
+        "answers": [
+          { "answer": "Rozhodně spoléhám", "value": 1 },
+          { "answer": "Spíše spoléhám", "value": 0.66 },
+          { "answer": "Spíše nespoléhám", "value": 0.33 },
+          { "answer": "Rozhodné nespoléhám", "value": 0 }
+        ]
+      },
+      {
+        "item": "novinářů, kteří jsou vám názorově blízcí",
+        "answers": [
+          { "answer": "Rozhodně spoléhám", "value": 1 },
+          { "answer": "Spíše spoléhám", "value": 0.66 },
+          { "answer": "Spíše nespoléhám", "value": 0.33 },
+          { "answer": "Rozhodné nespoléhám", "value": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Do jaké míry souhlasíte nebo nesouhlasíte s následujícími výroky?",
+    "items": [
+      {
+        "item": "Nemá cenu obracet se na úřady, protože ty se o problémy obyčejného člověka příliš nezajímají.",
+        "answers": [
+          { "answer": "Rozhodně souhlasím", "value": 0 },
+          { "answer": "Spíše souhlasím", "value": 0.33 },
+          { "answer": "Spíše nesouhlasím", "value": 0.66 },
+          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+        ]
+      },
+      {
+        "item": "Ať si říká kdo chce, co chce, průměrný člověk se má stále hůře.",
+        "answers": [
+          { "answer": "Rozhodně souhlasím", "value": 0 },
+          { "answer": "Spíše souhlasím", "value": 0.33 },
+          { "answer": "Spíše nesouhlasím", "value": 0.66 },
+          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+        ]
+      },
+      {
+        "item": "Dnes člověk vskutku neví, na koho se může spolehnout.",
+        "answers": [
+          { "answer": "Rozhodně souhlasím", "value": 0 },
+          { "answer": "Spíše souhlasím", "value": 0.33 },
+          { "answer": "Spíše nesouhlasím", "value": 0.66 },
+          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Nejspolehlivější, ověřený, stručný a vyčerpávající popis neznámého odborného pojmu lze nalézt v:",
+    "answers": [
+      { "answer": "denním tisku", "value": 0 },
+      { "answer": "dvojjazyčném slovníku", "value": 0 },
+      { "answer": "lexikonu nebo encyklopedii", "value": 1 },
+      { "answer": "vědeckém článku", "value": 0 },
+      { "answer": "nevím", "value": 0 }
+    ]
+  },
+  {
+    "question": "Ve které z následujících možností jsou informační zdroje správně seřazeny od nejméně po nejvíce formálně podložené a ověřené?",
+    "answers": [
+      { "answer": "blog, deník, odborný časopis, norma", "value": 1 },
+      { "answer": "blog, norma, deník, odborný časopis", "value": 0 },
+      { "answer": "deník, blog, norma, odborný časopis", "value": 0 },
+      { "answer": "norma, odborný časopis, blog, deník", "value": 0 },
+      { "answer": "nevím", "value": 0 }
+    ]
+  },
+  {
+    "question": "Které z níže uvedených údajů jsou hrubá nezpracovaná data?",
+    "answers": [
+      { "answer": "ceny akcií zveřejněné na konci obchodního dne", "value": 1 },
+      { "answer": "mapy počasí", "value": 0 },
+      {
+        "answer": "údaje o růstu obyvatelstva uvedené v tabulkách",
+        "value": 0
+      },
+      { "answer": "údaje o růstu obyvatelstva uvedené v grafech", "value": 0 },
+      { "answer": "nevím", "value": 0 }
+    ]
+  },
+  {
+    "question": "V porovnání s vyhledáváním v rámci názvu a abstraktu je výsledkem fulltextového vyhledávání v databázi:",
+    "answers": [
+      { "answer": "stejný počet výsledků", "value": 0 },
+      { "answer": "menší počet výsledků", "value": 0 },
+      {
+        "answer": "na počet výsledků to nemá žádný vliv",
+        "value": 0
+      },
+      { "answer": "větší počet výsledků", "value": 1 },
+      { "answer": "nevím", "value": 0 }
+    ]
+  },
+  {
+    "question": "Které tvrzení o GMO (geneticky modifikovaných organismech) není autorovým osobním názorem?",
+    "answers": [
+      { "answer": "GMO přinesou celosvětovou potravinovou krizi.", "value": 0 },
+      {
+        "answer": "Podle soupisů bylo v roce 2013 v EU registrováno 15 nových GMO.",
+        "value": 1
+      },
+      {
+        "answer": "Pokusy s GMO by měly být zakázány.",
+        "value": 0
+      },
+      {
+        "answer": "Většina výzkumníků GMO je podplacena velkými korporacemi.",
+        "value": 0
+      },
+      { "answer": "nevím", "value": 0 }
+    ]
+  }
+]
