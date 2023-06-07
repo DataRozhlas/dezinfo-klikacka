@@ -1,6 +1,6 @@
 [
   {
-    "question": "Řekněte, prosím, nakolik důvěřujete nebo nedůvěřujete:",
+    "question": "Řekněte, prosím, nakolik důvěřujete nebo nedůvěřujete",
     "items": [
       {
         "item": "Prezidentovi republiky",
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "item": "veřejnoprávní televizi (Česká televize)",
+        "item": "České televizi",
         "answers": [
           { "answer": "Rozhodně důvěřuji", "value": 1 },
           { "answer": "Spíše důvěřuji", "value": 0.66 },
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "item": "veřejnoprávnímu rozhlasu (Český rozhlas)",
+        "item": "Českému rozhlasu",
         "answers": [
           { "answer": "Rozhodně důvěřuji", "value": 1 },
           { "answer": "Spíše důvěřuji", "value": 0.66 },
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "question": "Když se rozhodujete, zda máte věřit nějaké informaci, do jaké míry se spoléháte nebo nespoléháte na názory:",
+    "question": "Když se rozhodujete, zda máte věřit nějaké informaci, do jaké míry se spoléháte nebo nespoléháte na názory",
     "items": [
       {
         "item": "politiků, kteří jsou vám názorově blízcí",
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "question": "Nejspolehlivější, ověřený, stručný a vyčerpávající popis neznámého odborného pojmu lze nalézt v:",
+    "question": "Nejspolehlivější, ověřený, stručný a vyčerpávající popis neznámého odborného pojmu lze nalézt v",
     "answers": [
       { "answer": "denním tisku", "value": 0 },
       { "answer": "dvojjazyčném slovníku", "value": 0 },

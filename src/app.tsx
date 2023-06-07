@@ -4,36 +4,23 @@ import {
   Stack,
   Box,
   Text,
-  ButtonGroup,
   Button,
   Container,
-  ScaleFade,
-  Tooltip,
+  RadioGroup,
+  Radio,
 } from "@chakra-ui/react";
+import ButtonGroupScale from "./ButtonGroupScale";
 import "./app.css";
-import data from "./data/duvera.json";
+import data from "./data/questions.json";
 
-const selectedData = data.slice(0, 10);
-
-const possibleAnswers = [
-  "Určitě ano",
-  "Spíše ano",
-  "Tak napůl",
-  "Spíše ne",
-  "Určitě ne",
-  "Nevím",
-];
-
-const colors = [
-  "#ffffd9",
-  "#edf8b1",
-  "#c7e9b4",
-  "#7fcdbb",
-  "#41b6c4",
-  "#1d91c0",
-].reverse();
-
-type Answers = number[];
+type Answers = {
+  id: number;
+  answers: {
+    id: number;
+    value: number;
+    index: number;
+  }[];
+}[];
 
 export function App() {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -43,13 +30,13 @@ export function App() {
 
   return (
     <Container py={3} px={0} maxWidth={"620px"}>
-      {activeQuestion < selectedData.length && (
+      {activeQuestion < data.length && (
         <Stack gap={5}>
           <Center>
             <Stack direction={"row"} wrap={"wrap"}>
-              {selectedData.map((question, index) => (
+              {data.map((question, index) => (
                 <Box
-                  key={question.q}
+                  key={`question-${index}`}
                   bg={index === activeQuestion ? "#1A202C" : "#CBD5E0"}
                   rounded={"full"}
                   w={3}
@@ -61,98 +48,74 @@ export function App() {
             </Stack>
           </Center>
           <Text align={"center"} fontSize={"2xl"} fontWeight={"extrabold"}>
-            {selectedData[activeQuestion]?.q}
+            {data[activeQuestion]?.question}
           </Text>
-          <Text align={"center"} fontSize={"1xl"} fontWeight={"semibold"}>
-            Co si myslíte vy?
-          </Text>
-          <Center>
-            <ButtonGroup variant="outline" isAttached={true} width="100%">
-              {possibleAnswers.map((answer, index) => {
-                return (
-                  <Button
-                    size="sm"
-                    height="60px"
-                    flexBasis={"100%"}
-                    style={{
-                      whiteSpace: "normal",
-                      wordWrap: "break-word",
-                    }}
-                    bg={colors[index]}
-                    onClick={() => {
-                      setAnswers((prev) => {
-                        const newAnswers = [...prev];
-                        newAnswers[activeQuestion] = index;
-                        return newAnswers;
-                      });
-                    }}
-                    border={answers[activeQuestion] === index ? "4px" : "0px"}
-                  >
-                    {answer}
-                  </Button>
-                );
-              })}
-            </ButtonGroup>
-          </Center>
-          <ScaleFade
-            initialScale={0}
-            in={answers[activeQuestion] !== undefined}
-          >
-            <Box mt={5}>
-              <Stack gap={5}>
-                <Text align={"center"} fontSize={"1xl"} fontWeight={"semibold"}>
-                  Co si myslí Češky a Češi
-                </Text>
-                <Center>
-                  {possibleAnswers.map((answer, index) => {
-                    const value =
-                      selectedData[activeQuestion]?.a[answer as keyof {}];
+          {data[activeQuestion].items &&
+            data[activeQuestion].items?.map((item, index) => {
+              return (
+                <Stack>
+                  <Text fontSize={"2xl"}>{item.item}</Text>
+                  <ButtonGroupScale
+                    options={item.answers}
+                    answers={answers}
+                    setAnswers={setAnswers}
+                    activeQuestion={activeQuestion}
+                    subItem={index}
+                  />
+                </Stack>
+              );
+            })}
+          {data[activeQuestion].answers && (
+            <RadioGroup
+              value={
+                answers
+                  .find((answer) => answer.id === activeQuestion)
+                  ?.answers[0].index.toString() || ""
+              }
+              onChange={(value) => {
+                setAnswers((prev) => {
+                  return [
+                    ...prev.filter(
+                      (question) => question.id !== activeQuestion
+                    ),
+                    {
+                      id: activeQuestion,
+                      answers: [
+                        {
+                          id: 0,
+                          value:
+                            data[activeQuestion].answers![parseInt(value)]
+                              .value,
+                          index: parseInt(value),
+                        },
+                      ],
+                    },
+                  ];
+                });
+              }}
+            >
+              <Center>
+                <Stack>
+                  {data[activeQuestion].answers?.map((answer, index) => {
                     return (
-                      <Tooltip
-                        label={`${answer}: ${(
-                          Math.floor(value * 10) / 10
-                        ).toLocaleString("cs-CZ")} %`}
-                      >
-                        <Box
-                          bg={colors[index]}
-                          h={"60px"}
-                          w={`${value}%`}
-                          borderLeftRadius={index === 0 ? "md" : "none"}
-                          borderRightRadius={index === 5 ? "md" : "none"}
-                          display={"flex"}
-                          alignItems={"center"}
-                          justifyContent={"center"}
-                          cursor={"help"}
-                          border={
-                            answers[activeQuestion] === index ? "4px" : "0px"
-                          }
-                        >
-                          <Text
-                            fontSize="xs"
-                            fontWeight={"semibold"}
-                            style={{
-                              overflow: "hidden",
-                              whiteSpace: "nowrap",
-                              textOverflow: "ellipsis",
-                            }}
-                          >
-                            {(Math.floor(value * 10) / 10).toLocaleString(
-                              "cs-CZ"
-                            )}{" "}
-                            %
-                          </Text>
-                        </Box>
-                      </Tooltip>
+                      <Radio value={index.toString()}>{answer.answer}</Radio>
                     );
                   })}
-                </Center>
-              </Stack>
-            </Box>
-          </ScaleFade>
-          {answers[activeQuestion] !== undefined && (
+                </Stack>
+              </Center>
+            </RadioGroup>
+          )}
+
+          {
             <Box pt={10}>
               <Button
                 width={"100%"}
+                isDisabled={
+                  !answers.find((answer) => answer.id === activeQuestion) ||
+                  (data[activeQuestion].items &&
+                    answers.find((answer) => answer.id === activeQuestion)
+                      ?.answers.length !== data[activeQuestion].items?.length)
+                }
                 onClick={() => {
                   setActiveQuestion((prev) => prev + 1);
                 }}
@@ -160,66 +123,7 @@ export function App() {
                 Další &rarr;
               </Button>
             </Box>
-          )}
-        </Stack>
-      )}
-      {activeQuestion === selectedData.length && (
-        <Stack gap={10}>
-          {answers.map((answerMain, indexMain) => {
-            return (
-              <Box>
-                <Text
-                  align={"center"}
-                  fontSize={"2xl"}
-                  fontWeight={"extrabold"}
-                  pb={3}
-                >
-                  {selectedData[indexMain]?.q}
-                </Text>
-                <Center>
-                  {possibleAnswers.map((answer, index) => {
-                    const value =
-                      selectedData[indexMain]?.a[answer as keyof {}];
-                    return (
-                      <Tooltip
-                        label={`${answer}: ${(
-                          Math.floor(value * 10) / 10
-                        ).toLocaleString("cs-CZ")} %`}
-                      >
-                        <Box
-                          bg={colors[index]}
-                          h={"60px"}
-                          w={`${value}%`}
-                          borderLeftRadius={index === 0 ? "md" : "none"}
-                          borderRightRadius={index === 5 ? "md" : "none"}
-                          display={"flex"}
-                          alignItems={"center"}
-                          justifyContent={"center"}
-                          cursor={"help"}
-                          border={answerMain === index ? "4px" : "0px"}
-                        >
-                          <Text
-                            fontSize="xs"
-                            fontWeight={"semibold"}
-                            style={{
-                              overflow: "hidden",
-                              whiteSpace: "nowrap",
-                              textOverflow: "ellipsis",
-                            }}
-                          >
-                            {(Math.floor(value * 10) / 10).toLocaleString(
-                              "cs-CZ"
-                            )}{" "}
-                            %
-                          </Text>
-                        </Box>
-                      </Tooltip>
-                    );
-                  })}
-                </Center>
-              </Box>
-            );
-          })}
+          }
         </Stack>
       )}
     </Container>
