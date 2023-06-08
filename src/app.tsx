@@ -10,6 +10,7 @@ import {
   Radio,
 } from "@chakra-ui/react";
 import ButtonGroupScale from "./ButtonGroupScale";
+import Chart from "./Chart";
 import "./app.css";
 import data from "./data/questions.json";
 
@@ -34,15 +35,31 @@ export function App() {
         <Stack gap={5}>
           <Center>
             <Stack direction={"row"} wrap={"wrap"}>
-              {data.map((question, index) => (
+              {data.map((_question, index) => (
                 <Box
                   key={`question-${index}`}
                   bg={index === activeQuestion ? "#1A202C" : "#CBD5E0"}
                   rounded={"full"}
                   w={3}
                   h={3}
-                  onClick={() => setActiveQuestion(index)}
-                  cursor={"pointer"}
+                  onClick={() => {
+                    if (
+                      answers.find(
+                        (answer) =>
+                          answer.id === index && answer.id < activeQuestion
+                      )
+                    ) {
+                      setActiveQuestion(index);
+                    }
+                  }}
+                  cursor={
+                    answers.find(
+                      (answer) =>
+                        answer.id === index && answer.id < activeQuestion
+                    )
+                      ? "pointer"
+                      : "default"
+                  }
                 ></Box>
               ))}
             </Stack>
@@ -66,44 +83,54 @@ export function App() {
               );
             })}
           {data[activeQuestion].answers && (
-            <RadioGroup
-              value={
-                answers
-                  .find((answer) => answer.id === activeQuestion)
-                  ?.answers[0].index.toString() || ""
-              }
-              onChange={(value) => {
-                setAnswers((prev) => {
-                  return [
-                    ...prev.filter(
-                      (question) => question.id !== activeQuestion
-                    ),
-                    {
-                      id: activeQuestion,
-                      answers: [
-                        {
-                          id: 0,
-                          value:
-                            data[activeQuestion].answers![parseInt(value)]
-                              .value,
-                          index: parseInt(value),
-                        },
-                      ],
-                    },
-                  ];
-                });
-              }}
-            >
-              <Center>
-                <Stack>
-                  {data[activeQuestion].answers?.map((answer, index) => {
-                    return (
-                      <Radio value={index.toString()}>{answer.answer}</Radio>
-                    );
-                  })}
+            <Container>
+              <RadioGroup
+                value={
+                  answers
+                    .find((answer) => answer.id === activeQuestion)
+                    ?.answers[0].index.toString() || ""
+                }
+                onChange={(value) => {
+                  setAnswers((prev) => {
+                    return [
+                      ...prev.filter(
+                        (question) => question.id !== activeQuestion
+                      ),
+                      {
+                        id: activeQuestion,
+                        answers: [
+                          {
+                            id: 0,
+                            value:
+                              data[activeQuestion].answers![parseInt(value)]
+                                .value,
+                            index: parseInt(value),
+                          },
+                        ],
+                      },
+                    ];
+                  });
+                }}
+              >
+                <Stack gap={7}>
+                  <Center>
+                    <Stack>
+                      {data[activeQuestion].answers?.map((answer, index) => {
+                        return (
+                          <Radio value={index.toString()}>
+                            {answer.answer}
+                          </Radio>
+                        );
+                      })}
+                    </Stack>
+                  </Center>
+                  <Text fontSize={"xs"}>
+                    Pokud nevíte, jaká je správná odpověď, nezkoušejte ji
+                    uhádnout. Lepší je, když zaškrtnete možnost „nevím“.
+                  </Text>
                 </Stack>
-              </Center>
-            </RadioGroup>
+              </RadioGroup>
+            </Container>
           )}
 
           {
@@ -120,11 +147,19 @@ export function App() {
                   setActiveQuestion((prev) => prev + 1);
                 }}
               >
-                Další &rarr;
+                {activeQuestion < data.length - 1 ? "Další →" : "Výsledky →"}
               </Button>
             </Box>
           }
         </Stack>
+      )}
+      {activeQuestion === data.length && (
+        <Container>
+          <Text align={"center"} fontSize={"2xl"} fontWeight={"extrabold"}>
+            Váš výsledek
+          </Text>
+          <Chart answers={answers}></Chart>
+        </Container>
       )}
     </Container>
   );

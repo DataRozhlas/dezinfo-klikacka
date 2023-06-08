@@ -1,6 +1,6 @@
 [
   {
-    "question": "Řekněte, prosím, nakolik důvěřujete nebo nedůvěřujete",
+    "question": "Nakolik důvěřujete nebo nedůvěřujete",
     "items": [
       {
         "item": "Prezidentovi republiky",
@@ -67,7 +67,7 @@
           { "answer": "Rozhodně spoléhám", "value": 1 },
           { "answer": "Spíše spoléhám", "value": 0.66 },
           { "answer": "Spíše nespoléhám", "value": 0.33 },
-          { "answer": "Rozhodné nespoléhám", "value": 0 }
+          { "answer": "Rozhodně nespoléhám", "value": 0 }
         ]
       },
       {
@@ -76,7 +76,7 @@
           { "answer": "Rozhodně spoléhám", "value": 1 },
           { "answer": "Spíše spoléhám", "value": 0.66 },
           { "answer": "Spíše nespoléhám", "value": 0.33 },
-          { "answer": "Rozhodné nespoléhám", "value": 0 }
+          { "answer": "Rozhodně nespoléhám", "value": 0 }
         ]
       },
       {
@@ -85,7 +85,7 @@
           { "answer": "Rozhodně spoléhám", "value": 1 },
           { "answer": "Spíše spoléhám", "value": 0.66 },
           { "answer": "Spíše nespoléhám", "value": 0.33 },
-          { "answer": "Rozhodné nespoléhám", "value": 0 }
+          { "answer": "Rozhodně nespoléhám", "value": 0 }
         ]
       }
     ]
@@ -99,7 +99,7 @@
           { "answer": "Rozhodně souhlasím", "value": 0 },
           { "answer": "Spíše souhlasím", "value": 0.33 },
           { "answer": "Spíše nesouhlasím", "value": 0.66 },
-          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+          { "answer": "Rozhodně nesouhlasím", "value": 1 }
         ]
       },
       {
@@ -108,7 +108,7 @@
           { "answer": "Rozhodně souhlasím", "value": 0 },
           { "answer": "Spíše souhlasím", "value": 0.33 },
           { "answer": "Spíše nesouhlasím", "value": 0.66 },
-          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+          { "answer": "Rozhodně nesouhlasím", "value": 1 }
         ]
       },
       {
@@ -117,7 +117,7 @@
           { "answer": "Rozhodně souhlasím", "value": 0 },
           { "answer": "Spíše souhlasím", "value": 0.33 },
           { "answer": "Spíše nesouhlasím", "value": 0.66 },
-          { "answer": "Rozhodné nesouhlasím", "value": 1 }
+          { "answer": "Rozhodně nesouhlasím", "value": 1 }
         ]
       }
     ]
