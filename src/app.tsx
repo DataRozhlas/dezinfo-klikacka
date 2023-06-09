@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState, useEffect } from "preact/hooks";
 import {
   Center,
   Stack,
@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import "./app.css";
 import data from "./data/konspi.json";
+import { usePostMessageWithHeight } from "./hooks/usePostHeightMessage";
 
 const selectedData = data.slice(0, 10);
 
@@ -39,10 +40,17 @@ export function App() {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [answers, setAnswers] = useState<Answers>([]);
 
+  const { containerRef, postHeightMessage } =
+    usePostMessageWithHeight("dezinfo-klikacka");
+
+  useEffect(() => {
+    postHeightMessage();
+  }, [activeQuestion]);
+
   //const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Container py={3} px={0} maxWidth={"620px"}>
+    <Container py={3} px={0} maxWidth={"620px"} ref={containerRef}>
       {activeQuestion < selectedData.length && (
         <Stack gap={5}>
           <Center>
