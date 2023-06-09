@@ -1,0 +1,588 @@
+[
+  {
+    "q": "Vysílače 5G sítí škodí významně lidskému zdraví.",
+    "a": {
+      "Určitě ano": 3.47191753820576,
+      "Spíše ano": 6.45830217017513,
+      "Tak napůl": 12.1802739321516,
+      "Spíše ne": 25.8416158312365,
+      "Určitě ne": 26.6238581582132,
+      "Nevím": 25.4240323700177
+    }
+  },
+  {
+    "q": "Informace o závažných škodlivých důsledcích očkování proti COVID-19 jsou cíleně zamlčovány.",
+    "a": {
+      "Určitě ano": 17.7820592425801,
+      "Spíše ano": 18.5295654094023,
+      "Tak napůl": 18.4663141521708,
+      "Spíše ne": 22.5768901787536,
+      "Určitě ne": 14.6886056491861,
+      "Nevím": 7.9565653679072
+    }
+  },
+  {
+    "q": "Stopy za letadly obsahují tajně přidané nebezpečné chemické nebo biologické látky.",
+    "a": {
+      "Určitě ano": 3.27845466755759,
+      "Spíše ano": 4.30519822381865,
+      "Tak napůl": 7.59792063791996,
+      "Spíše ne": 21.5026316368434,
+      "Určitě ne": 45.7876173603714,
+      "Nevím": 17.528177473489
+    }
+  },
+  {
+    "q": "Řada důkazů nasvědčuje tomu, že Lady Diana byla zavražděna a její nehoda byla naaranžovaná.",
+    "a": {
+      "Určitě ano": 7.26794003993508,
+      "Spíše ano": 17.6786768380653,
+      "Tak napůl": 17.2154153688906,
+      "Spíše ne": 22.5889686967071,
+      "Určitě ne": 14.8471675863397,
+      "Nevím": 20.4018314700622
+    }
+  },
+  {
+    "q": "Západní medicína odmítá řešit příčiny nemocí, řeší pouze následky. Pro zdravý organismus je podstatné, aby člověk harmonizoval svou mysl a pracoval s přírodní",
+    "a": {
+      "Určitě ano": 13.3714888170301,
+      "Spíše ano": 21.5315448550932,
+      "Tak napůl": 30.4378036081692,
+      "Spíše ne": 16.5026507642846,
+      "Určitě ne": 8.19707900290299,
+      "Nevím": 9.95943295251987
+    }
+  },
+  {
+    "q": "Nelegální migrace z afrických zemí je organizovaná akce, která má vést k ovládnutí Evropy míšeneckou rasou.",
+    "a": {
+      "Určitě ano": 8.33762256738141,
+      "Spíše ano": 12.5329202947987,
+      "Tak napůl": 16.2919340603866,
+      "Spíše ne": 28.2323761726223,
+      "Určitě ne": 22.1313300033572,
+      "Nevím": 12.4738169014538
+    }
+  },
+  {
+    "q": "Islám je totalitní ideologie, která hlásá podmanění všech kultur a nastolení práva šaría.",
+    "a": {
+      "Určitě ano": 20.2734463306868,
+      "Spíše ano": 25.7399603509434,
+      "Tak napůl": 17.0605523857293,
+      "Spíše ne": 12.2838770975041,
+      "Určitě ne": 6.52363473412829,
+      "Nevím": 18.1185291010082
+    }
+  },
+  {
+    "q": "Přijetí tzv. Istanbulské úmluvy o boji proti násilí na ženách a domácímu násilí bezprostředně povede ke zničení tradiční rodiny.",
+    "a": {
+      "Určitě ano": 3.88324427147615,
+      "Spíše ano": 4.99312614713356,
+      "Tak napůl": 8.22636441387445,
+      "Spíše ne": 18.3565287273158,
+      "Určitě ne": 38.877978221318,
+      "Nevím": 25.6627582188821
+    }
+  },
+  {
+    "q": "Miliardář George Soros se snaží rozvrátit státy v Evropě a jejich kulturu.",
+    "a": {
+      "Určitě ano": 4.45421520621195,
+      "Spíše ano": 5.02517608394518,
+      "Tak napůl": 7.78589241240062,
+      "Spíše ne": 14.36317074366,
+      "Určitě ne": 14.9074393736795,
+      "Nevím": 53.4641061801028
+    }
+  },
+  {
+    "q": "Svět ve skutečnosti řídí skryté elity, které jsou mocnější než jednotlivé vlády, politici jsou jenom jejich loutkami.",
+    "a": {
+      "Určitě ano": 11.8529954290199,
+      "Spíše ano": 18.2736805518628,
+      "Tak napůl": 20.5274176470046,
+      "Spíše ne": 20.7452907884259,
+      "Určitě ne": 16.8443950479833,
+      "Nevím": 11.7562205357035
+    }
+  },
+  {
+    "q": "Výsledky amerických voleb v roce 2020 byly zmanipulovány tak, aby vyhrál Joe Biden nad Donaldem Trumpem.",
+    "a": {
+      "Určitě ano": 4.73645559085695,
+      "Spíše ano": 7.2176377452679,
+      "Tak napůl": 9.39892340857006,
+      "Spíše ne": 24.7502579582903,
+      "Určitě ne": 29.3979911678902,
+      "Nevím": 24.4987341291245
+    }
+  },
+  {
+    "q": "Za útoky na newyorské mrakodrapy z 11. září 2001 stojí ve skutečnosti americká vláda nebo tajné služby.",
+    "a": {
+      "Určitě ano": 3.8781580980999,
+      "Spíše ano": 7.74999652747046,
+      "Tak napůl": 10.7286577926229,
+      "Spíše ne": 23.0068372216527,
+      "Určitě ne": 35.311146123734,
+      "Nevím": 19.3252042364201
+    }
+  },
+  {
+    "q": "Pandemie COVID-19 byla ve skutečnosti vymyšlená jako záminka k ovládání lidí.",
+    "a": {
+      "Určitě ano": 8.96126440257047,
+      "Spíše ano": 11.1692031044704,
+      "Tak napůl": 14.3683892038765,
+      "Spíše ne": 20.7007076223875,
+      "Určitě ne": 38.2346148830337,
+      "Nevím": 6.56582078366151
+    }
+  },
+  {
+    "q": "Očkování proti COVID-19 je součástí plánu na celosvětové snížení počtu lidí na zemi.",
+    "a": {
+      "Určitě ano": 8.83722359658678,
+      "Spíše ano": 8.85065112023618,
+      "Tak napůl": 10.8415971814597,
+      "Spíše ne": 20.0213521190545,
+      "Určitě ne": 41.450168886919,
+      "Nevím": 9.99900709574383
+    }
+  },
+  {
+    "q": "Existuje tajný spolek satanistických pedofilů, který se snažil sesadit bývalého amerického prezidenta Donalda Trumpa.",
+    "a": {
+      "Určitě ano": 1.42732337669389,
+      "Spíše ano": 2.10067824497539,
+      "Tak napůl": 2.84784640821,
+      "Spíše ne": 13.0975917279882,
+      "Určitě ne": 38.1760239509284,
+      "Nevím": 42.3505362912041
+    }
+  },
+  {
+    "q": "Rusko bylo dotlačeno do války na Ukrajině kvůli nepřátelskému chování států NATO.",
+    "a": {
+      "Určitě ano": 4.84320338978148,
+      "Spíše ano": 5.7546739253758,
+      "Tak napůl": 9.59507893112287,
+      "Spíše ne": 15.9082273076856,
+      "Určitě ne": 51.8289368792891,
+      "Nevím": 12.0698795667452
+    }
+  },
+  {
+    "q": "Západní civilizace je zkažená, naopak Rusko zachraňuje tradiční hodnoty a rodinu.",
+    "a": {
+      "Určitě ano": 2.1601755323951,
+      "Spíše ano": 2.44552963801429,
+      "Tak napůl": 7.40605928941353,
+      "Spíše ne": 12.5779934217727,
+      "Určitě ne": 68.2090109289792,
+      "Nevím": 7.20123118942523
+    }
+  },
+  {
+    "q": "Sametová revoluce v roce 1989 byla dopředu domluvená.",
+    "a": {
+      "Určitě ano": 8.22632275329196,
+      "Spíše ano": 14.7055669046113,
+      "Tak napůl": 16.4027739115843,
+      "Spíše ne": 21.796893083661,
+      "Určitě ne": 19.3986854005974,
+      "Nevím": 19.4697579462541
+    }
+  },
+  {
+    "q": "Výsledky prezidentských voleb v ČR v roce 2023 byly zmanipulované.",
+    "a": {
+      "Určitě ano": 6.65226993944443,
+      "Spíše ano": 6.77514556676834,
+      "Tak napůl": 7.30711074590904,
+      "Spíše ne": 16.4580063936561,
+      "Určitě ne": 54.0579168152224,
+      "Nevím": 8.74955053899974
+    }
+  },
+  {
+    "q": "Slovanské národy jsou jako bratři a sestry a Rusko brání jejich zájmy.",
+    "a": {
+      "Určitě ano": 3.40924182792526,
+      "Spíše ano": 4.49785819502867,
+      "Tak napůl": 9.90359750166715,
+      "Spíše ne": 15.7020655760993,
+      "Určitě ne": 53.0147985228326,
+      "Nevím": 13.472438376447
+    }
+  },
+  {
+    "q": "Jsem rád/a, když má můj život jasnou strukturu a řád.",
+    "a": {
+      "Určitě ano": 26.6053201001231,
+      "Spíše ano": 57.3250043673213,
+      "Spíše ne": 10.9395473862915,
+      "Určitě ne": 1.35806649385932,
+      "Nevím": 3.77206165240475
+    }
+  },
+  {
+    "q": "Mám rád/a, když všechno má své místo a když je všechno na svém místě.",
+    "a": {
+      "Určitě ano": 37.3347124834548,
+      "Spíše ano": 51.4936033161522,
+      "Spíše ne": 7.25353225334497,
+      "Určitě ne": 1.2195812267417,
+      "Nevím": 2.69857072030638
+    }
+  },
+  {
+    "q": "Nemám rád/a nejisté situace.",
+    "a": {
+      "Určitě ano": 33.2173875681683,
+      "Spíše ano": 52.5952556221783,
+      "Spíše ne": 9.61150934730058,
+      "Určitě ne": 1.85854550537911,
+      "Nevím": 2.71730195697378
+    }
+  },
+  {
+    "q": "Nesnáším, když musím měnit své plány na poslední chvíli.",
+    "a": {
+      "Určitě ano": 33.5598537058283,
+      "Spíše ano": 46.113926778828,
+      "Spíše ne": 15.2433359276669,
+      "Určitě ne": 2.43404885088035,
+      "Nevím": 2.64883473679641
+    }
+  },
+  {
+    "q": "Nesnáším, když jsem s lidmi, kteří jsou nepředvídatelní.",
+    "a": {
+      "Určitě ano": 25.6800602162067,
+      "Spíše ano": 47.1235687456175,
+      "Spíše ne": 17.8958164380432,
+      "Určitě ne": 2.58670477599786,
+      "Nevím": 6.71384982413473
+    }
+  },
+  {
+    "q": "Zjišťuji, že pevné zvyklosti mi umožňují užívat si více života.",
+    "a": {
+      "Určitě ano": 17.431003581835,
+      "Spíše ano": 53.2289923161945,
+      "Spíše ne": 17.9241947386126,
+      "Určitě ne": 2.0118026543059,
+      "Nevím": 9.40400670905199
+    }
+  },
+  {
+    "q": "Na tuto kontrolní položku prosím vyberte k pokračování v dotazníku možnost \"Nevím\"",
+    "a": {
+      "Nevím": 100
+    }
+  },
+  {
+    "q": "Meditace je pro mne prostředkem komunikace s mým vnitřním já.",
+    "a": {
+      "Určitě ano": 4.40398131555766,
+      "Spíše ano": 17.8110290758608,
+      "Spíše ne": 24.1743575035571,
+      "Určitě ne": 38.7241288333242,
+      "Nevím": 14.8865032717002
+    }
+  },
+  {
+    "q": "Žiji v souladu s přírodou.",
+    "a": {
+      "Určitě ano": 8.40762795745052,
+      "Spíše ano": 49.6220248082526,
+      "Spíše ne": 24.1885513809308,
+      "Určitě ne": 7.62295067954092,
+      "Nevím": 10.1588451738252
+    }
+  },
+  {
+    "q": "Věřím, že mezi všemi věcmi na světě existuje propojení, které není viditelné, ale cítím ho.",
+    "a": {
+      "Určitě ano": 10.0639621925655,
+      "Spíše ano": 31.9167141845019,
+      "Spíše ne": 22.5249213034602,
+      "Určitě ne": 19.3107423080825,
+      "Nevím": 16.1836600113899
+    }
+  },
+  {
+    "q": "Můj život je cesta.",
+    "a": {
+      "Určitě ano": 18.2613052881489,
+      "Spíše ano": 46.7955149461584,
+      "Spíše ne": 12.8403360437296,
+      "Určitě ne": 8.65510081655708,
+      "Nevím": 13.4477429054059
+    }
+  },
+  {
+    "q": "Věřím ve vyšší vědomí.",
+    "a": {
+      "Určitě ano": 10.79135710204,
+      "Spíše ano": 27.9073365020086,
+      "Spíše ne": 21.8073361839934,
+      "Určitě ne": 23.5632465241696,
+      "Nevím": 15.9307236877885
+    }
+  },
+  {
+    "q": "Planeta Země je posvátná.",
+    "a": {
+      "Určitě ano": 11.0654053711025,
+      "Spíše ano": 30.5948127413975,
+      "Spíše ne": 18.6287835720846,
+      "Určitě ne": 17.2904585919932,
+      "Nevím": 22.4205397234222
+    }
+  },
+  {
+    "q": "Využívám ticho, abych se dostal do kontaktu sám se sebou.",
+    "a": {
+      "Určitě ano": 11.4581167609298,
+      "Spíše ano": 31.3402900706476,
+      "Spíše ne": 25.0539301254661,
+      "Určitě ne": 22.3891329935796,
+      "Nevím": 9.7585300493769
+    }
+  },
+  {
+    "q": "Mám vztah s vyšším vědomím.",
+    "a": {
+      "Určitě ano": 3.86430708157422,
+      "Spíše ano": 12.665209770754,
+      "Spíše ne": 24.7130847890999,
+      "Určitě ne": 39.2457491792304,
+      "Nevím": 19.5116491793415
+    }
+  },
+  {
+    "q": "Moje spiritualita mi dodává vnitřní sílu.",
+    "a": {
+      "Určitě ano": 6.60829447472308,
+      "Spíše ano": 21.4637328966736,
+      "Spíše ne": 23.2855454915941,
+      "Určitě ne": 29.2768443659812,
+      "Nevím": 19.365582771028
+    }
+  },
+  {
+    "q": "Moje víra ve vyšší vědomí mi pomáhá při řešení životních problémů.",
+    "a": {
+      "Určitě ano": 7.36979282491377,
+      "Spíše ano": 21.1340746732093,
+      "Spíše ne": 23.7190626147613,
+      "Určitě ne": 32.7728887305734,
+      "Nevím": 15.0041811565422
+    }
+  },
+  {
+    "q": "Modlitba je nedílnou součástí mého spirituálního bytí.",
+    "a": {
+      "Určitě ano": 5.40348391112045,
+      "Spíše ano": 9.12362485277813,
+      "Spíše ne": 19.3726546270847,
+      "Určitě ne": 56.5161515574299,
+      "Nevím": 9.58408505158684
+    }
+  },
+  {
+    "q": "V rámci svého spirituálního života si pravidelně vyhrazuji čas na zhodnocení mých životních rozhodnutí.",
+    "a": {
+      "Určitě ano": 4.00599614692377,
+      "Spíše ano": 20.4734516178916,
+      "Spíše ne": 30.4694352040066,
+      "Určitě ne": 31.4944784125099,
+      "Nevím": 13.556638618668
+    }
+  },
+  {
+    "q": "Mnoho lidí žije materiální životy a nemohou tak dosáhnout prozření nutného k nahlédnutí podstaty věcí.",
+    "a": {
+      "Určitě ano": 9.96052299793739,
+      "Spíše ano": 33.8885139292849,
+      "Spíše ne": 20.336347574975,
+      "Určitě ne": 16.9214181640137,
+      "Nevím": 18.893197333789
+    }
+  },
+  {
+    "q": "Všechny buňky našeho těla uchovávají vzpomínky (buněčné vzpomínky), ať už naše, nebo našich předků.",
+    "a": {
+      "Určitě ano": 13.088968245697,
+      "Spíše ano": 42.6785374120421,
+      "Spíše ne": 14.0485086974379,
+      "Určitě ne": 6.18896778057129,
+      "Nevím": 23.9950178642517
+    }
+  },
+  {
+    "q": "Kolektivní paměť zděděná a sdílená organismy stejného druhu (\"morfické pole\" nebo také \"morfická rezonance\") vysvětluje několik biologických jevů.",
+    "a": {
+      "Určitě ano": 6.84451192389157,
+      "Spíše ano": 26.7677773596735,
+      "Spíše ne": 12.366277454354,
+      "Určitě ne": 5.87259091464303,
+      "Nevím": 48.1488423474379
+    }
+  },
+  {
+    "q": "Osteopatie a chiropraxe jsou vědecky podložené obory fyzioterapie.",
+    "a": {
+      "Určitě ano": 9.09661919006181,
+      "Spíše ano": 33.5558587753748,
+      "Spíše ne": 9.45977044476037,
+      "Určitě ne": 3.6908516147687,
+      "Nevím": 44.1968999750343
+    }
+  },
+  {
+    "q": "Existují oblasti našeho těla, jako jsou chodidla, ruce nebo uši, v nichž nacházíme zobrazení celé naší anatomie.",
+    "a": {
+      "Určitě ano": 15.1079225547168,
+      "Spíše ano": 40.243625498752,
+      "Spíše ne": 13.7076348613913,
+      "Určitě ne": 5.5094613140888,
+      "Nevím": 25.4313557710512
+    }
+  },
+  {
+    "q": "V evoluci stále ještě existují otázky, které nelze vysvětlit jinak, než zásahem nějaké inteligentní bytosti.",
+    "a": {
+      "Určitě ano": 12.287850035004,
+      "Spíše ano": 33.0550920270406,
+      "Spíše ne": 20.0518816650594,
+      "Určitě ne": 9.39876565876853,
+      "Nevím": 25.2064106141274
+    }
+  },
+  {
+    "q": "Bylo vědecky prokázáno, že někteří lidé mají mimosmyslové schopnosti, například telepatii nebo předvídání.",
+    "a": {
+      "Určitě ano": 15.1484430121598,
+      "Spíše ano": 44.0396265929736,
+      "Spíše ne": 16.1582286253462,
+      "Určitě ne": 7.25983822889132,
+      "Nevím": 17.3938635406291
+    }
+  },
+  {
+    "q": "Z dobře prokázaných biologických důvodů zvyšují negativní emoce a nevyřešené konflikty či traumata pravděpodobnost rakoviny.",
+    "a": {
+      "Určitě ano": 14.9477557980839,
+      "Spíše ano": 42.5132678309634,
+      "Spíše ne": 13.3751827179812,
+      "Určitě ne": 4.87826562825031,
+      "Nevím": 24.2855280247213
+    }
+  },
+  {
+    "q": "Existují archeologické důkazy o dávných kontaktech s mimozemskou civilizací, například v kulturách jako Sumerové, Egypťané, Mayové nebo Nazca.",
+    "a": {
+      "Určitě ano": 11.2849100234696,
+      "Spíše ano": 31.8531133033168,
+      "Spíše ne": 19.5125356819394,
+      "Určitě ne": 9.55282452571336,
+      "Nevím": 27.7966164655609
+    }
+  },
+  {
+    "q": "Nemá cenu obracet se na úřady, protože ty se o problémy obyčejného člověka příliš nezajímají.",
+    "a": {
+      "Určitě ano": 16.8754305962022,
+      "Spíše ano": 36.6551634818021,
+      "Spíše ne": 30.7735830988164,
+      "Určitě ne": 8.40435104029848,
+      "Nevím": 7.29147178288079
+    }
+  },
+  {
+    "q": "Člověk dnes musí žít jen pro přítomnost, budoucnost se o sebe bude muset postarat sama.",
+    "a": {
+      "Určitě ano": 9.09418138690977,
+      "Spíše ano": 22.0567122321798,
+      "Spíše ne": 37.5680485503578,
+      "Určitě ne": 23.5353397321543,
+      "Nevím": 7.74571809839832
+    }
+  },
+  {
+    "q": "Ať si říká, kdo chce, co chce, průměrný člověk se má stále hůře.",
+    "a": {
+      "Určitě ano": 23.1735151234145,
+      "Spíše ano": 36.8808716314347,
+      "Spíše ne": 23.0537679210519,
+      "Určitě ne": 8.94576671989273,
+      "Nevím": 7.94607860420624
+    }
+  },
+  {
+    "q": "Není příliš zodpovědné přivádět děti na svět, když budoucnost je tak nejistá.",
+    "a": {
+      "Určitě ano": 7.72862144533916,
+      "Spíše ano": 18.9511765303246,
+      "Spíše ne": 36.495205345945,
+      "Určitě ne": 28.0132001335543,
+      "Nevím": 8.81179654483694
+    }
+  },
+  {
+    "q": "Dnes člověk vskutku neví, na koho se může spolehnout.",
+    "a": {
+      "Určitě ano": 24.6323338704432,
+      "Spíše ano": 48.362195857689,
+      "Spíše ne": 18.8501009879027,
+      "Určitě ne": 3.94213466052987,
+      "Nevím": 4.21323462343525
+    }
+  },
+  {
+    "q": "Většině lidí je opravdu jedno, co se děje ostatním.",
+    "a": {
+      "Určitě ano": 22.4086315957032,
+      "Spíše ano": 50.7644591802422,
+      "Spíše ne": 17.9462433157181,
+      "Určitě ne": 3.20166734459161,
+      "Nevím": 5.67899856374486
+    }
+  },
+  {
+    "q": "Peníze jsou vedle zdraví nejdůležitější věcí v životě.",
+    "a": {
+      "Určitě ano": 16.3899900194426,
+      "Spíše ano": 37.7476211848308,
+      "Spíše ne": 29.7496125326326,
+      "Určitě ne": 11.2509039017482,
+      "Nevím": 4.86187236134579
+    }
+  },
+  {
+    "q": "Člověk se někdy neubrání pochybnostem, jestli má vůbec smysl něco dělat.",
+    "a": {
+      "Určitě ano": 16.0467086581073,
+      "Spíše ano": 46.6627332172238,
+      "Spíše ne": 22.0879538877595,
+      "Určitě ne": 9.03201633659575,
+      "Nevím": 6.17058790031368
+    }
+  },
+  {
+    "q": "K vydělávání peněz už neexistují správné a špatné způsoby, jen snadné a obtížné.",
+    "a": {
+      "Určitě ano": 12.7096438344084,
+      "Spíše ano": 33.3681123608761,
+      "Spíše ne": 26.0025353006349,
+      "Určitě ne": 14.812022576876,
+      "Nevím": 13.1076859272046
+    }
+  }
+]
