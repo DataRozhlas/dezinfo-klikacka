@@ -2,17 +2,6 @@ import { useRef } from "preact/hooks";
 import * as Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-interface ChartProps {
-  answers: {
-    id: number;
-    answers: {
-      id: number;
-      value: number;
-      index: number;
-    }[];
-  }[];
-}
-
 const mean = (data: number[]) => {
   return (
     data.reduce((prev: number, current: number) => prev + current) / data.length
