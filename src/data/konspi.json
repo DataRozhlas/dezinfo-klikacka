@@ -174,45 +174,5 @@
       "Určitě ne": 53.0147985228326,
       "Nevím": 13.472438376447
     }
-  },
-  {
-    "q": "Všechny buňky našeho těla uchovávají vzpomínky (buněčné vzpomínky), ať už naše, nebo našich předků.",
-    "a": {
-      "Určitě ano": 13.088968245697,
-      "Spíše ano": 42.6785374120421,
-      "Spíše ne": 14.0485086974379,
-      "Určitě ne": 6.18896778057129,
-      "Nevím": 23.9950178642517
-    }
-  },
-  {
-    "q": "Existují oblasti našeho těla, jako jsou chodidla, ruce nebo uši, v nichž nacházíme zobrazení celé naší anatomie.",
-    "a": {
-      "Určitě ano": 15.1079225547168,
-      "Spíše ano": 40.243625498752,
-      "Spíše ne": 13.7076348613913,
-      "Určitě ne": 5.5094613140888,
-      "Nevím": 25.4313557710512
-    }
-  },
-  {
-    "q": "Bylo vědecky prokázáno, že někteří lidé mají mimosmyslové schopnosti, například telepatii nebo předvídání.",
-    "a": {
-      "Určitě ano": 15.1484430121598,
-      "Spíše ano": 44.0396265929736,
-      "Spíše ne": 16.1582286253462,
-      "Určitě ne": 7.25983822889132,
-      "Nevím": 17.3938635406291
-    }
-  },
-  {
-    "q": "Existují archeologické důkazy o dávných kontaktech s mimozemskou civilizací, například v kulturách jako Sumerové, Egypťané, Mayové nebo Nazca.",
-    "a": {
-      "Určitě ano": 11.2849100234696,
-      "Spíše ano": 31.8531133033168,
-      "Spíše ne": 19.5125356819394,
-      "Určitě ne": 9.55282452571336,
-      "Nevím": 27.7966164655609
-    }
   }
 ]
