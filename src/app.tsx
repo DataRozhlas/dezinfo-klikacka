@@ -19,9 +19,9 @@ import { usePostMessageWithHeight } from "./hooks/usePostHeightMessage";
 const selectedData: any[] = [];
 while (selectedData.length <= 10) {
   const i = Math.floor(Math.random() * data.length);
-  selectedData.push(data[i])
-  data.splice(i, 1)
-};
+  selectedData.push(data[i]);
+  data.splice(i, 1);
+}
 
 const possibleAnswers = [
   "Určitě ano",
@@ -52,7 +52,7 @@ export function App() {
 
   useEffect(() => {
     postHeightMessage();
-  }, [activeQuestion]);
+  }, [activeQuestion, answers]);
 
   //const { isOpen, onToggle } = useDisclosure();
 
