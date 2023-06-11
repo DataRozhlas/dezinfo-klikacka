@@ -14,7 +14,14 @@ import "./app.css";
 import data from "./data/konspi.json";
 import { usePostMessageWithHeight } from "./hooks/usePostHeightMessage";
 
-const selectedData = data.slice(0, 10);
+//const selectedData = data.slice(0, 10);
+//randomly select 10
+const selectedData: any[] = [];
+while (selectedData.length <= 10) {
+  const i = Math.floor(Math.random() * data.length);
+  selectedData.push(data[i])
+  data.splice(i, 1)
+};
 
 const possibleAnswers = [
   "Určitě ano",
