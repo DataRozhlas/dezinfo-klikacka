@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState, useEffect } from "preact/hooks";
 import {
   Center,
   Stack,
@@ -13,6 +13,7 @@ import ButtonGroupScale from "./ButtonGroupScale";
 import Chart from "./Chart";
 import "./app.css";
 import data from "./data/questions.json";
+import { usePostMessageWithHeight } from "./hooks/usePostHeightMessage";
 
 type Answers = {
   id: number;
@@ -27,10 +28,15 @@ export function App() {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [answers, setAnswers] = useState<Answers>([]);
 
-  //const { isOpen, onToggle } = useDisclosure();
+  const { containerRef, postHeightMessage } =
+    usePostMessageWithHeight("dezinfo-klikacka");
+
+  useEffect(() => {
+    postHeightMessage();
+  }, [activeQuestion, answers]);
 
   return (
-    <Container py={3} px={0} maxWidth={"620px"}>
+    <Container py={3} px={0} maxWidth={"620px"} ref={containerRef}>
       {activeQuestion < data.length && (
         <Stack gap={5}>
           <Center>
