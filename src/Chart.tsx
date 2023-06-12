@@ -93,7 +93,99 @@ const Chart = (props: HighchartsReact.Props) => {
           pointFormat:
             "Důvěra společenskému systému: <b>{point.x:.2f}</b><br/>Informační gramotnost: <b>{point.y:.2f}</b><br/>",
         },
-        data: [{ x: x, y: y, color: "#d52834", marker: { radius: 5 } }],
+        data: [
+          {
+            x: x,
+            y: y,
+            color: "#FF0000",
+            marker: { radius: 7, lineWidth: 2, lineColor: "#000" },
+          },
+        ],
+      },
+      {
+        name: "Silní odpůrci konspirací",
+        type: "scatter",
+        dataLabels: {
+          enabled: true,
+          format: "Silní odpůrci",
+          padding: 10,
+        },
+        tooltip: {
+          pointFormat:
+            "Důvěra společenskému systému: <b>{point.x:.2f}</b><br/>Informační gramotnost: <b>{point.y:.2f}</b><br/>",
+        },
+        data: [
+          {
+            x: 0.26,
+            y: -0.04,
+            color: "#4575b4",
+            marker: { radius: 4, symbol: "square" },
+          },
+        ],
+      },
+      {
+        name: "Silní příznivci konspirací",
+        type: "scatter",
+        dataLabels: {
+          enabled: true,
+          format: "Silní příznivci",
+          padding: 10,
+        },
+        tooltip: {
+          pointFormat:
+            "Důvěra společenskému systému: <b>{point.x:.2f}</b><br/>Informační gramotnost: <b>{point.y:.2f}</b><br/>",
+        },
+        data: [
+          {
+            x: -0.64,
+            y: -0.5,
+            color: "#d53e4f",
+            marker: { radius: 4, symbol: "square" },
+          },
+        ],
+      },
+      {
+        name: "Průměr české populace",
+        type: "scatter",
+        dataLabels: {
+          enabled: true,
+          format: "Celá populace",
+          padding: 10,
+        },
+        tooltip: {
+          pointFormat:
+            "Důvěra společenskému systému: <b>{point.x:.2f}</b><br/>Informační gramotnost: <b>{point.y:.2f}</b><br/>",
+        },
+        data: [
+          {
+            x: -0.14,
+            y: -0.34,
+            color: "#000",
+            marker: { radius: 4, symbol: "square" },
+          },
+        ],
+      },
+      {
+        visible: false,
+        name: "Apatičtí",
+        type: "scatter",
+        dataLabels: {
+          enabled: true,
+          format: "Apatičtí",
+          padding: 10,
+        },
+        tooltip: {
+          pointFormat:
+            "Důvěra společenskému systému: <b>{point.x:.2f}</b><br/>Informační gramotnost: <b>{point.y:.2f}</b><br/>",
+        },
+        data: [
+          {
+            x: -0.32,
+            y: -0.66,
+            color: "#e0e0e0",
+            marker: { radius: 4, symbol: "square" },
+          },
+        ],
       },
     ],
   };
