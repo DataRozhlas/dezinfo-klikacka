@@ -1,13 +1,13 @@
 import { ButtonGroup, Button } from "@chakra-ui/react";
 
 const colors = [
-  "#ffffd9",
-  "#edf8b1",
-  "#c7e9b4",
-  "#7fcdbb",
-  "#41b6c4",
-  "#1d91c0",
-].reverse();
+  "#4575b4",
+  "#91bfdb",
+  "#fee090",
+  "#fc8d59",
+  "#d73027",
+  "#e0e0e0",
+];
 
 interface Props {
   options: {
