@@ -29,7 +29,7 @@ export function App() {
   const [answers, setAnswers] = useState<Answers>([]);
 
   const { containerRef, postHeightMessage } =
-    usePostMessageWithHeight("dezinfo-klikacka");
+    usePostMessageWithHeight("dezinfo-kalkulacka");
 
   useEffect(() => {
     postHeightMessage();
