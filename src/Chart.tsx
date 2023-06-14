@@ -107,7 +107,7 @@ const Chart = (props: HighchartsReact.Props) => {
         type: "scatter",
         dataLabels: {
           enabled: true,
-          format: "Silní odpůrci",
+          format: "Silní odpůrci konspirací",
           padding: 10,
         },
         tooltip: {
@@ -128,7 +128,7 @@ const Chart = (props: HighchartsReact.Props) => {
         type: "scatter",
         dataLabels: {
           enabled: true,
-          format: "Silní příznivci",
+          format: "Silní příznivci konspirací",
           padding: 10,
         },
         tooltip: {
